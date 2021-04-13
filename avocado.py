@@ -1,0 +1,1 @@
+print('Avocados are a fruit, not a vegetable.')
