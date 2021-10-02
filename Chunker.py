@@ -4,5 +4,8 @@ def chunker(iterable, size):
         yield iterable[i : i + size]
 
 
+ browsers = ["safari", "chrome", "opera","mozilla"]
+for x in browsers:
+  print(x)
 for chunk in chunker(range(25), 4):
     print(list(chunk))
